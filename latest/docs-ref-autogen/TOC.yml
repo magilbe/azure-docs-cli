@@ -2863,6 +2863,10 @@
         uid: az_cdn_profile
         displayName: az cdn profile
         items: []
+      - name: profile-migration
+        uid: az_cdn_profile-migration
+        displayName: az cdn profile-migration
+        items: []
   - name: Cost Management
     items:
     - name: Commands
@@ -8917,6 +8921,15 @@
         - name: gateway
           uid: az_network_nat_gateway
           displayName: az network nat gateway
+          items: []
+      - name: network-watcher
+        items:
+        - name: Commands
+          uid: az_network_network-watcher
+          displayName: az network network-watcher
+        - name: connection-monitor
+          uid: az_network_network-watcher_connection-monitor
+          displayName: az network network-watcher connection-monitor
           items: []
       - name: nic
         items:
